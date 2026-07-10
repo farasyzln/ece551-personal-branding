@@ -122,3 +122,74 @@ box-shadow:0 20px 40px rgba(0,0,0,.15);
 border-radius:20px;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.content-section {
+    padding: 80px;
+    min-height: 70vh;
+    background-color: white;
+}
+
+.content-section:nth-of-type(even) {
+    background-color: #fff7fa;
+}
+
+.content-section h2 {
+    font-size: 38px;
+    color: #d4478b;
+    margin-bottom: 25px;
+}
+
+.content-section p,
+.content-section li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #d4478b;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #d4478b;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
