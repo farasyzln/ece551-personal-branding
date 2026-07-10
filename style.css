@@ -193,3 +193,122 @@ form button {
     border-radius: 6px;
     cursor: pointer;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.content-section {
+    padding: 90px 6%;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-label {
+    color: #d4478b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    color: #222222;
+}
+
+.about-section {
+    background-color: #ffffff;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 45px;
+    align-items: start;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #444444;
+}
+
+.about-details {
+    display: grid;
+    gap: 20px;
+}
+
+.detail-card {
+    background-color: #fff5f9;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+.detail-card h3 {
+    color: #d4478b;
+    margin-bottom: 15px;
+}
+
+.detail-card ul {
+    padding-left: 20px;
+}
+
+.detail-card li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.education-section {
+    background-color: #fff8fb;
+}
+
+.table-container {
+    max-width: 1100px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+th,
+td {
+    padding: 18px;
+    border: 1px solid #e3e3e3;
+    text-align: left;
+}
+
+th {
+    background-color: #d4478b;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #fff4f8;
+}
+
+@media screen and (max-width: 800px) {
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .content-section {
+        padding: 70px 25px;
+    }
+
+    .section-heading h2 {
+        font-size: 34px;
+    }
+}
